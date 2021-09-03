@@ -2,7 +2,7 @@
 
 ### How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
 
-I spent around 6 hours developing the test. I would probably add integration tests for the Devices Controller and also improve the existing unit tests.
+I spent around 6 hours developing the test. I would probably add integration tests for the Devices Controller and also improve the existing unit tests. I would also like to clean the front end of the application.
 
 ### What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
