@@ -1,2 +1,2 @@
 mvn clean install
-nohup java -jar ./target/recruitment-test-0.0.1-SNAPSHOT
+java -jar ./target/recruitment-test-1.0.jar
