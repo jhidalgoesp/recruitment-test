@@ -1,0 +1,5 @@
+server:
+  port: 9000
+
+device:
+  path: "./devices.json"
