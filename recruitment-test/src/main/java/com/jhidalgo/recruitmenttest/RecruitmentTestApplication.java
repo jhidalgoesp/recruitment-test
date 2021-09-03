@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 @SpringBootApplication
-public class RecruitmentTestApplication {
+public class 	RecruitmentTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RecruitmentTestApplication.class, args);

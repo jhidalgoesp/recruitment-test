@@ -4,6 +4,8 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
 import com.jhidalgo.recruitmenttest.data.DeviceReader;
 import com.jhidalgo.recruitmenttest.domain.Device;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -15,6 +17,8 @@ import java.util.List;
 
 @Component
 public class DeviceReaderImpl implements DeviceReader {
+
+    private final static Logger LOG = LoggerFactory.getLogger(DeviceReaderImpl.class);
 
     private String devicePath;
 
@@ -37,7 +41,7 @@ public class DeviceReaderImpl implements DeviceReader {
                     .create()
                     .fromJson(reader, Device[].class));
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            LOG.error("devices.json was not found");
         }
         return devices;
     }
