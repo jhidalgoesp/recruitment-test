@@ -1,6 +1,6 @@
 # TrustHab Engineer Recruitment Test
 
-This project deliver the information of devices from devices.json throug an API and Web interface.
+This project deliver the information of devices from devices.json through an API and Web interface.
 
 ## Getting Started
 

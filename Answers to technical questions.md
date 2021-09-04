@@ -66,7 +66,7 @@ If the data came from a database i would probably implement an active cache usin
   "lastname": "Hidalgo",
   "age": 27,
   "nationality": "Ecuadorian",
-  "livesin": "Guayaquil",
+  "livesIn": "Guayaquil",
   "passions": [
     "Programming",
     "Fitness",
